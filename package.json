@@ -1,0 +1,15 @@
+{
+  "name": "infiniteai2025-nato1000",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Node 24 validation tooling for the NaTo1000 NATO-1000 AGI model-specification repository.",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0 <25"
+  },
+  "packageManager": "npm@11.17.0",
+  "scripts": {
+    "validate": "node --enable-source-maps scripts/validate-model-specs.mjs",
+    "ci": "npm run validate"
+  }
+}
